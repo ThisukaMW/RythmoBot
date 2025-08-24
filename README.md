@@ -29,10 +29,10 @@ dancing-robot-project/
 │           ├── song4.mp3          # Mastie Mashup
 │           ├── song5.mp3          # Alone-Marshmello
 │           └── song6.mp3          # Faded
-├── docs/
-│   ├── hardware-setup.md          # Hardware assembly guide
-│   ├── wiring-diagram.png         # Circuit connections
-│   └── troubleshooting.md         # Common issues and fixes
+├── 
+│   ├── blockdiagramnew.drawio.png    # Hardware assembly guide
+│   ├── schematic-diagram.png         # Circuit connections
+│   └── final_report_Rythmobot.pdf    # final report
 ├── .vscode
 └── README.md                      # This file
 ```
