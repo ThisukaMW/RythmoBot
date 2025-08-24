@@ -1,5 +1,7 @@
 # RythmoBot - Dancing Robot Project
 
+![images](images/robot.jpg)
+
 An interactive dancing robot controlled via web interface, featuring synchronized LED strips, sound sensors, obstacle detection, and choreographed dance moves to various songs.
 
 ## Project Structure
@@ -108,6 +110,9 @@ LCD Display → 0x27
    ```
 
 3. Upload the code to ESP32
+
+![images](images/web2.png)  ![images](images/web1.png)
+
 
 ### 3. Web Interface Setup
 1. Host the web files on a local server or ESP32
