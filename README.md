@@ -15,7 +15,7 @@ dancing-robot-project/
 │   ├── neural.h                   # "Mastie Mashup" dance choreography
 │   ├── other.h                    # "Other" dance choreography
 │   └── stereo.h                   # "Stereo Love" dance choreography
-├── web/
+├── Web_App[1]/Web_App
 │   ├── index.html                 # Main web interface
 │   ├── style.css                  # Web styling
 │   ├── script.js                  # Web JavaScript functionality
