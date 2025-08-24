@@ -33,7 +33,7 @@ dancing-robot-project/
 │   ├── hardware-setup.md          # Hardware assembly guide
 │   ├── wiring-diagram.png         # Circuit connections
 │   └── troubleshooting.md         # Common issues and fixes
-├── LICENSE                        # Project license
+├── .vscode
 └── README.md                      # This file
 ```
 
