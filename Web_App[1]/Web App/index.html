@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RythmoBot</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <img src="public/robot.gif" alt="Dancing Robot" class="robot-gif" />
+
+      <h1 style="margin-top: 170px;">RythmoBot</h1>
+      <label for="song-selector">Select Song:</label>
+      <br /><br />
+      <select id="song-selector">
+        <option value="public/song1.mp3">Falling For You</option>
+        <option value="public/song2.mp3">Stereo Love</option>
+        <option value="public/song3.mp3">Alone</option>
+        <option value="public/song4.mp3">Mastie Mashup</option>
+        <option value="public/song5.mp3">Alone-Marshmello</option>
+        <option value="public/song6.mp3">Faded</option>
+        <!-- Add your song files here -->
+      </select>
+
+      <audio id="audio-player" controls>
+        <source id="audio-source" type="audio/mp3" />
+      </audio>
+
+      <div class="drop-zone" id="drop-zone">
+        <div class="drop-zone-text">🎵 Drop MP3 files here</div>
+        <div class="drop-zone-subtext">Supports MP3 audio files</div>
+      </div>
+      <input type="file" id="file-input" accept=".mp3,audio/mp3" multiple />
+      <br />
+
+      <div class="uploaded-files" id="uploaded-files" style="display: none">
+        <h3 style="color: #00ffcc">Uploaded Songs:</h3>
+        <div id="files-list"></div>
+      </div>
+      <!-- LED Controls -->
+      <div class="control-section">
+        <div class="section-title">💡 LED Control</div>
+
+        <div class="led-grid">
+          <button class="led-button" onclick="setLedPattern('off')">
+            🔴 OFF
+          </button>
+          <button class="led-button" onclick="setLedPattern('rainbow')">
+            🌈 Rainbow
+          </button>
+          <button class="led-button" onclick="setLedPattern('pulse')">
+            💓 Pulse
+          </button>
+          <button class="led-button" onclick="setLedPattern('chase')">
+            🏃 Chase
+          </button>
+          <button class="led-button" onclick="setLedPattern('strobe')">
+            ⚡ Strobe
+          </button>
+          <button class="led-button" onclick="setLedPattern('fire')">
+            🔥 Fire
+          </button>
+          <button class="led-button" onclick="setLedPattern('dance')">
+            🕺 Dance
+          </button>
+          <button class="led-button" onclick="setLedPattern('breathing')">
+            😮‍💨 Breathing
+          </button>
+          <button class="led-button" onclick="setLedPattern('wave')">
+            🌊 Wave
+          </button>
+        </div>
+      </div>
+      <button id="start-button" style="margin-top: 30px">Start Dance</button>
+      <div id="status">Waiting for selection...</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
